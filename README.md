@@ -14,7 +14,11 @@ Ta 是一个 AI 分身：在终端、电脑、手机上替你写代码、干活�
 
 请不要在 issue 里贴密钥、token 或者私人对话内容。
 
-## 安装
+## 下载
+
+**[download.cellbang.com/ta](https://download.cellbang.com/ta)**：macOS（Apple 芯片）。下载后解压，把 Ta 拖进「应用程序」，以后它会自己更新。
+
+终端里用：
 
 ```bash
 npm i -g @celljs/ta     # Node.js >= 22.19

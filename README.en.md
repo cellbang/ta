@@ -14,7 +14,11 @@ This repository is for **feedback** and **releases**; the source is not here.
 
 Please keep keys, tokens and private conversations out of issues.
 
-## Install
+## Download
+
+**[download.cellbang.com/ta](https://download.cellbang.com/ta)**: macOS (Apple silicon). Unzip it, drag Ta to Applications, and it updates itself from then on.
+
+In the terminal:
 
 ```bash
 npm i -g @celljs/ta     # Node.js >= 22.19
