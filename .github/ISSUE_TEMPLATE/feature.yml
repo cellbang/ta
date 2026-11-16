@@ -1,0 +1,15 @@
+name: 建议 / Suggestion
+description: 想让 Ta 做到的事 / Something you want Ta to do
+labels: [enhancement]
+body:
+  - type: textarea
+    id: want
+    attributes:
+      label: 你想做到什么 / What you want to do
+      description: 说说场景和现在的不便，比直接说要什么功能更有用。 / The situation and what is in the way now helps more than the feature itself.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你设想的样子 / How you picture it

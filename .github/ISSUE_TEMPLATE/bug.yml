@@ -1,0 +1,42 @@
+name: 问题 / Bug
+description: Ta 出错了，或者和你预期的不一样 / Something in Ta is wrong
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么 / What happened
+      description: 你做了什么，预期是什么，实际怎样。截图或录屏很有帮助。 / What you did, what you expected, what happened instead. A screenshot helps.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 怎么复现 / How to reproduce
+      placeholder: |
+        1.
+        2.
+  - type: dropdown
+    id: where
+    attributes:
+      label: 在哪里用的 / Where
+      multiple: true
+      options:
+        - 桌面版 / Desktop
+        - 手机 / Phone
+        - 浏览器（ta serve）/ Browser
+        - 终端 / Terminal
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境 / Environment
+      description: Ta 的版本、模型、系统。用 /bug 打开的会自动填好。 / The version of Ta, the model, the system; /bug fills it in.
+      placeholder: |
+        - Ta 4.13.1 (dev · 19249a6)
+        - model:
+        - macOS 15, arm64
+  - type: markdown
+    attributes:
+      value: 请不要贴密钥、token 或私人对话。 / Keep keys, tokens and private conversations out.
